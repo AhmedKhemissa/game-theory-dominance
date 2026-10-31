@@ -1,0 +1,15 @@
+# Exemple 1 : Jeu 2 joueurs au format texte structuré (.game)
+NAME: Exemple 1 - Format Texte
+PLAYERS: Joueur 1, Joueur 2
+STRATEGIES Joueur 1: H, M, B
+STRATEGIES Joueur 2: G, C, D
+PAYOFFS:
+H, G -> 3, 1
+H, C -> 2, 3
+H, D -> 0, 0
+M, G -> 1, 2
+M, C -> 1, 2
+M, D -> 5, 1
+B, G -> 2, 2
+B, C -> 0, 1
+B, D -> 1, 0

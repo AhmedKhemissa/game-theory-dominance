@@ -1,0 +1,20 @@
+{
+  "name": "Exemple 2 : Élimination impossible (Pierre-Feuille-Ciseaux)",
+  "description": "Jeu à somme nulle sans aucune stratégie dominée (stricte ou faible)",
+  "players": ["Joueur 1", "Joueur 2"],
+  "strategies": {
+    "Joueur 1": ["Pierre", "Feuille", "Ciseaux"],
+    "Joueur 2": ["Pierre", "Feuille", "Ciseaux"]
+  },
+  "payoffs": {
+    "Pierre, Pierre": [0, 0],
+    "Pierre, Feuille": [-1, 1],
+    "Pierre, Ciseaux": [1, -1],
+    "Feuille, Pierre": [1, -1],
+    "Feuille, Feuille": [0, 0],
+    "Feuille, Ciseaux": [-1, 1],
+    "Ciseaux, Pierre": [-1, 1],
+    "Ciseaux, Feuille": [1, -1],
+    "Ciseaux, Ciseaux": [0, 0]
+  }
+}

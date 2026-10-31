@@ -1,0 +1,20 @@
+{
+  "name": "Exemple 1 : Élimination possible jusqu'à 1x1 (Dominance stricte)",
+  "description": "Jeu 2 joueurs 3x3 avec élimination complète aboutissant au profil unique (H, C)",
+  "players": ["Joueur 1", "Joueur 2"],
+  "strategies": {
+    "Joueur 1": ["H", "M", "B"],
+    "Joueur 2": ["G", "C", "D"]
+  },
+  "payoffs": {
+    "H, G": [3, 1],
+    "H, C": [2, 3],
+    "H, D": [0, 0],
+    "M, G": [1, 2],
+    "M, C": [1, 2],
+    "M, D": [5, 1],
+    "B, G": [2, 2],
+    "B, C": [0, 1],
+    "B, D": [1, 0]
+  }
+}

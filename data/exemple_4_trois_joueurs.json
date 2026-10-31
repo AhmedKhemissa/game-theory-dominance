@@ -1,0 +1,20 @@
+{
+  "name": "Exemple 4 : Jeu public à trois joueurs (Cas général N=3)",
+  "description": "3 joueurs avec stratégies C (contribuer) et N (ne pas contribuer). N domine strictement C.",
+  "players": ["Joueur 1", "Joueur 2", "Joueur 3"],
+  "strategies": {
+    "Joueur 1": ["C", "N"],
+    "Joueur 2": ["C", "N"],
+    "Joueur 3": ["C", "N"]
+  },
+  "payoffs": {
+    "C, C, C": [3, 3, 3],
+    "C, C, N": [1, 1, 4],
+    "C, N, C": [1, 4, 1],
+    "N, C, C": [4, 1, 1],
+    "C, N, N": [-1, 2, 2],
+    "N, C, N": [2, -1, 2],
+    "N, N, C": [2, 2, -1],
+    "N, N, N": [0, 0, 0]
+  }
+}

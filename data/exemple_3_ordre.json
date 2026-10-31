@@ -1,0 +1,17 @@
+{
+  "name": "Exemple 3 : Dominance faible et ordre d'élimination",
+  "description": "Jeu 2x3 illustrant la non-confluence et la sensibilité à l'ordre d'élimination",
+  "players": ["Joueur 1", "Joueur 2"],
+  "strategies": {
+    "Joueur 1": ["H", "B"],
+    "Joueur 2": ["G", "M", "D"]
+  },
+  "payoffs": {
+    "H, G": [2, 1],
+    "H, M": [2, 1],
+    "H, D": [2, 0],
+    "B, G": [2, 1],
+    "B, M": [1, 0],
+    "B, D": [2, 0]
+  }
+}
